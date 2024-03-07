@@ -69,6 +69,7 @@ The committee will then make a final decision after the open forum.
 * Another meeting
 * Requires all interested parties to be able to attend the meeting to make their opinions heard
 * More opinions to consider can make for more difficult decision-making
+* Only have the length of the meeting to come up with opinions
 
 ## Decision
 
