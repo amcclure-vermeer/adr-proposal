@@ -21,7 +21,7 @@ Allowing these parties to voice their opinions, concerns, and ideas should lead 
 
 ### No RFC Process
 
-The architecture committee will make decisions with direct input from the developers and engineers.
+The architecture committee will make decisions with no direct input from the developers and engineers.
 
 #### Pros
 * Fastest process
