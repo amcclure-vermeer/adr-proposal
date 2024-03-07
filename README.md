@@ -13,15 +13,15 @@ accepting the downside of {negative consequences}.
 Proposed
 
 ## Context
-There is no current open and publicized process for ADRs to be proposed and discussed before a decision is made.
-While the final decision-making would be left to the architecture committee, it is important to have a process that allows for more input from the engineers and developers who are affected by the decisions.
-Allowing these parties to voice their opinions, concerns, and ideas should lead to better decisions and more buy-in from the individuals and teams that will be implementing the decisions, as well as helping to garner more interest in the outcomes of these decisions.
+There is no current open and publicized process for proposing and discussing ADRs before a decision is made.
+While the architecture committee will make the final decision, it is essential to have a process that allows for more input from the engineers and developers affected by the decisions.
+Allowing these parties to voice their opinions, concerns, and ideas should lead to better decisions and more buy-in from the individuals and teams that will be implementing the decisions. It should also help garner more interest in the outcomes of these decisions.
 
 ## Considered Options
 
 ### No RFC Process
 
-The architecture committee will continue to make decisions without direct input from the developers and engineers.
+The architecture committee will make decisions with direct input from the developers and engineers.
 
 #### Pros
 * Fastest process
@@ -35,18 +35,18 @@ The architecture committee will continue to make decisions without direct input 
 
 ### GitHub Pull Request
 
-ADRs are proposed as a pull request (PR) to the `v-adr-project` repository. 
-The proposal is neutrally announced during the next available tech leveling meeting covering the context of the proposed ADR, where it then enters a Request for Comments (RFC) period of at least one week.
+Propose ADRs as a pull request (PR) to the `v-adr-project` repository. 
+The proposal is announced during the next available tech leveling meeting covering the context of the proposed ADR, where it then enters a Request for Comments (RFC) period of at least one week.
 
-The comments of the PR will be used to discuss the proposed ADR, with the ability to propose changes to the context and options. The ideas and concerns can be gauged by responses and discussion in the comments and should be weighed appropriately by the architecture committee when making a final decision.
+Use the PR's comment section to discuss the proposed ADR, with the ability to propose changes to the context and options. Responses and discussions in the comments can gauge ideas and concerns and should be weighed appropriately by the architecture committee when making a final decision.
 
-A one day warning will be given before the RFC period ends, and the final decision will be made by the architecture committee.
+A member of the architecture committee will give a one-day warning before the RFC period ends, after which the committee will make a final decision.
 
 #### Pros
 * Allows for more direct input from the developers and engineers
-* More ideas and concerns can brought forward that may not have been considered by a smaller group
-* More transparency on addressing the wider concerns of a decision in the `Consequences` section 
-* Asynchronous process in which a meeting does not need to be attended to voice an opinion
+* More ideas and concerns can brought forward that a smaller group may not consider
+* More transparency on addressing the broader concerns of a decision in the `Consequences` section 
+* Developers and engineers do not need to attend a meeting to have their voices heard
 
 #### Cons
 * More overhead and process
@@ -60,14 +60,14 @@ The committee will then make a final decision after the open forum.
 
 #### Pros
 * Allows for more direct input from the developers and engineers
-* More ideas and concerns can brought forward that may not have been considered by a smaller group
-* More transparency on addressing the wider concerns of a decision in the `Consequences` section
-* Can be easier to have a discussion in real-time
+* More ideas and concerns can brought forward that a smaller group may not consider
+* More transparency on addressing the broader concerns of a decision in the `Consequences` section
+* It can be easier to discuss in real-time
 * Less overall time than the PR process
 
 #### Cons
 * Another meeting
-* Requires all interested parties to be able to attend the meeting in order to make their opinions heard
+* Requires all interested parties to be able to attend the meeting to make their opinions heard
 * More opinions to consider can make for more difficult decision-making
 
 ## Decision
